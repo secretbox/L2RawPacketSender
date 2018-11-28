@@ -1,8 +1,8 @@
-.PHONY: clean all
-
+.PHONY: all
+.DEFAULT_GOAL := all
 cc:=gcc
 clean:
-	rm -rf *.o
+	rm -rf tcchain iwaerolinkActive iwaerolinkBackupSync
 
 tcchain: TurboChainTC.c
 	$(cc) -o $@ $<
