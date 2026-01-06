@@ -4,6 +4,7 @@
  *  the Free Software Foundation, either version 3 of the License, or
  *  (at your option) any later version.
  */
+ /*It's a raw socket example*/
 
 #include <arpa/inet.h>
 #include <linux/if_packet.h>
